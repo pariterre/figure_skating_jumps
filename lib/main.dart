@@ -26,6 +26,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:permission_handler/permission_handler.dart';
 
+// TODO Cancel if recording is useless
+// TODO Upload asynchroneously
+
 Future<void> main() async {
   bool hasStoragePermissions = false;
   bool hasNetwork = false;
